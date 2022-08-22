@@ -1,0 +1,21 @@
+casper-client put-deploy --chain-name casper-net-1 \
+-n http://localhost:11101/rpc \
+--session-path contract/target/wasm32-unknown-unknown/release/contract.wasm \
+--secret-key /home/jh/keys/test1/secret_key.pem \
+--payment-amount 21500000000
+
+=> contracthash
+hash-599dcdb3f00dce0114d77ca3a51f2511675a6af1e270d35e82efaf44163ea1c3
+
+casper-client put-deploy --chain-name casper-net-1 \
+-n http://localhost:11101/rpc \
+--session-hash hash-599dcdb3f00dce0114d77ca3a51f2511675a6af1e270d35e82efaf44163ea1c3 \
+--session-entry-point test_unsafe \
+--secret-key /home/jh/keys/test1/secret_key.pem \
+--payment-amount 100000000
+
+casper-client put-deploy --chain-name casper-net-1 \
+-n http://localhost:11101/rpc \
+--session-path contract/target/wasm32-unknown-unknown/release/fake.wasm \
+--secret-key /home/jh/casper-node/utils/nctl/assets/net-1/users/user-1/secret_key.pem \
+--payment-amount 100000000000

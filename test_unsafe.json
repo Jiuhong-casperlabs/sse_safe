@@ -1,0 +1,162 @@
+data: {
+    "DeployProcessed": {
+        "deploy_hash": "6e038b02548932e5fd05d06b87890ff719ffc47abb4dc4928e907fa25d6e4441",
+        "account": "017ccc3ecb461b33a1e9ed7147e7c9394b8b54a53b06e356a34148cb5f26f954ce",
+        "timestamp": "2022-08-16T00:32:10.947Z",
+        "ttl": "30m",
+        "dependencies": [],
+        "block_hash": "f475d62edc177687dec0903a2cce1c4037ff0c22cda6a9eb41243648b5627ab0",
+        "execution_result": {
+            "Success": {
+                "effect": {
+                    "operations": [],
+                    "transforms": [
+                        {
+                            "key": "hash-9a14b9fc100d952043e7d90c9c3fdb8df3e774deb6b0841b90820d2d22b6c17f",
+                            "transform": "Identity"
+                        },
+                        {
+                            "key": "hash-ef0c323ade5a72142f30dd4e5375c96ed85ded537f13bad6473c59f5b10562cc",
+                            "transform": "Identity"
+                        },
+                        {
+                            "key": "hash-3f032dd4f69b3d2b617e07b09c46b961662d1ec143a22f645c84a4172803dfd5",
+                            "transform": "Identity"
+                        },
+                        {
+                            "key": "hash-940e8d7afc6e32fae6861c316298e781104c521436be16f259919aeeed59020e",
+                            "transform": "Identity"
+                        },
+                        {
+                            "key": "balance-0a84598a78ffc1a5acafaec50f5e22327b73c9290cdad28e9c0440ada35ae062",
+                            "transform": "Identity"
+                        },
+                        {
+                            "key": "balance-ef620a17fc83b52e28e994b3cd0700dc7bf5d78c2823c389e622d693b666401a",
+                            "transform": "Identity"
+                        },
+                        {
+                            "key": "balance-0a84598a78ffc1a5acafaec50f5e22327b73c9290cdad28e9c0440ada35ae062",
+                            "transform": {
+                                "WriteCLValue": {
+                                    "cl_type": "U512",
+                                    "bytes": "0e006024deac5ac138938d44c64d31",
+                                    "parsed": "999999999999999999999600000000000"
+                                }
+                            }
+                        },
+                        {
+                            "key": "balance-ef620a17fc83b52e28e994b3cd0700dc7bf5d78c2823c389e622d693b666401a",
+                            "transform": {
+                                "AddUInt512": "100000000000"
+                            }
+                        },
+                        {
+                            "key": "hash-638454513b1fd201d4acb11c0ae1418ba6dfef40cae1fb8d8c45558711756765",
+                            "transform": "Identity"
+                        },
+                        {
+                            "key": "hash-a0aab40d9b1582987aa1496ad05b8ef5f8ba9559ad3ec084bf5964f2162cc08d",
+                            "transform": "Identity"
+                        },
+                        {
+                            "key": "hash-e83bd2e4d83ae8d175397e6e8436b18f559d7bd8130265e029036abd737da7df",
+                            "transform": "Identity"
+                        },
+                        {
+                            "key": "uref-485d87a7fc31eeabd680efc01d18b133e3f02476efdf4b3f1b870a0b767f5f7f-000",
+                            "transform": {
+                                "WriteCLValue": {
+                                    "cl_type": {
+                                        "Map": {
+                                            "key": "String",
+                                            "value": "String"
+                                        }
+                                    },
+                                    "bytes": "030000000a000000746f6b656e5f6e616d65050000006170706c650c000000746f6b656e5f737570706c790200000031300c000000746f6b656e5f73796d626f6c050000004150504c45",
+                                    "parsed": [
+                                        {
+                                            "key": "token_name",
+                                            "value": "apple"
+                                        },
+                                        {
+                                            "key": "token_supply",
+                                            "value": "10"
+                                        },
+                                        {
+                                            "key": "token_symbol",
+                                            "value": "APPLE"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "key": "deploy-6e038b02548932e5fd05d06b87890ff719ffc47abb4dc4928e907fa25d6e4441",
+                            "transform": {
+                                "WriteDeployInfo": {
+                                    "deploy_hash": "6e038b02548932e5fd05d06b87890ff719ffc47abb4dc4928e907fa25d6e4441",
+                                    "transfers": [],
+                                    "from": "account-hash-d5d0e44e6139aa247c8e3af55c4ef87ea52d7ba92dd0443dff18f50ee05ea5a3",
+                                    "source": "uref-0a84598a78ffc1a5acafaec50f5e22327b73c9290cdad28e9c0440ada35ae062-007",
+                                    "gas": "60656440"
+                                }
+                            }
+                        },
+                        {
+                            "key": "hash-9a14b9fc100d952043e7d90c9c3fdb8df3e774deb6b0841b90820d2d22b6c17f",
+                            "transform": "Identity"
+                        },
+                        {
+                            "key": "hash-ef0c323ade5a72142f30dd4e5375c96ed85ded537f13bad6473c59f5b10562cc",
+                            "transform": "Identity"
+                        },
+                        {
+                            "key": "balance-ef620a17fc83b52e28e994b3cd0700dc7bf5d78c2823c389e622d693b666401a",
+                            "transform": "Identity"
+                        },
+                        {
+                            "key": "hash-9a14b9fc100d952043e7d90c9c3fdb8df3e774deb6b0841b90820d2d22b6c17f",
+                            "transform": "Identity"
+                        },
+                        {
+                            "key": "hash-3f032dd4f69b3d2b617e07b09c46b961662d1ec143a22f645c84a4172803dfd5",
+                            "transform": "Identity"
+                        },
+                        {
+                            "key": "hash-940e8d7afc6e32fae6861c316298e781104c521436be16f259919aeeed59020e",
+                            "transform": "Identity"
+                        },
+                        {
+                            "key": "balance-ef620a17fc83b52e28e994b3cd0700dc7bf5d78c2823c389e622d693b666401a",
+                            "transform": "Identity"
+                        },
+                        {
+                            "key": "balance-e8156fd9aa0cf7f270117ab25e98f7e46420988b65ebad6e729a631bbee01d6b",
+                            "transform": "Identity"
+                        },
+                        {
+                            "key": "balance-ef620a17fc83b52e28e994b3cd0700dc7bf5d78c2823c389e622d693b666401a",
+                            "transform": {
+                                "WriteCLValue": {
+                                    "cl_type": "U512",
+                                    "bytes": "00",
+                                    "parsed": "0"
+                                }
+                            }
+                        },
+                        {
+                            "key": "balance-e8156fd9aa0cf7f270117ab25e98f7e46420988b65ebad6e729a631bbee01d6b",
+                            "transform": {
+                                "AddUInt512": "100000000000"
+                            }
+                        }
+                    ]
+                },
+                "transfers": [],
+                "cost": "60656440"
+            }
+        }
+    }
+}
+id: 251
